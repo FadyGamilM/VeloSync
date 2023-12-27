@@ -60,5 +60,6 @@ func SendReads() error {
 		log.Printf("Truck.{%v} Sent ➜ %v\n", data.ID, data)
 		time.Sleep(1 * time.Second)
 	}
+	return nil
 	// }
 }
